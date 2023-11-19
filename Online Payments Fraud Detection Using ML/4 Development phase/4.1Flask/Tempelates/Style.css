@@ -1,0 +1,31 @@
+/* Select all text on the page and make it larger */
+body, button {
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(75, 121, 121);
+    text-align: center;
+    background-color: azure;
+    border-radius: 9px;
+    text-wrap:balance;
+    
+}
+body, button:hover{
+    background-color: cadetblue;
+   border-radius: 15px;
+   color: #f7f5f5;
+}
+
+/* Center-align headings and paragraphs */
+h1, h2, p, button {
+    text-align: left;
+}
+/* styles.css */
+
+        body {
+
+            background-image: url('bckgrnd1.jpeg'); /* Set the path to your background image */
+            background-size: cover; /* Scale the image to cover the entire background */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            text-decoration-color: #e3e3e3;
+            color: #f7f5f5;;
+        }
