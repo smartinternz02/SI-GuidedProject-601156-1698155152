@@ -42,7 +42,7 @@ def predict():
         output = "is a fraud transaction !!! "
 
     # return str(prediction[0])  # Convert the prediction to a string
-    return render_template('submit.html', prediction=output)
+    return render_template('Submit.html', prediction=output)
 
 
 if __name__ == "__main__":
